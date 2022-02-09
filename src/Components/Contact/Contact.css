@@ -1,0 +1,93 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    section{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }   
+
+    .formulaire{
+        width: 90% !important;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    
+    } 
+
+    aside{
+        width: 100%;
+    }
+    .plan{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+
+}
+/* header */
+.texte{
+    background-color: rgb(231, 230, 226);
+    border-radius: 20px;
+}
+
+.email{
+    text-decoration: none;
+    color:rgba(25,135,84,255);
+}
+
+/* Section */
+section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* aricle => formulaire */
+
+.formulaire{
+    width: 35%;
+    background-color:rgb(231, 230, 226) ;
+
+} 
+
+form{
+    width: 70%;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.bouton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Aside sur coté droit */
+
+aside{
+    background-color:rgb(231, 230, 226) ;
+    border-radius: 20px;
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+}
+
+.join a{
+    text-decoration: none;
+    color: rgba(25,135,84,255);
+
+}
+
+.join a:first-child{
+    margin-bottom: 5px;
+}
+
+
+.plan{
+    border: 3px solid rgba(25,135,84,255);
+    border-radius: 20px;
+    overflow: hidden;
+}

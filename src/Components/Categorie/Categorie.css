@@ -1,0 +1,42 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .liste li{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+.liste{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+.liste li{
+    padding: 10px;
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+      
+}
+
+.liste a{
+    text-decoration: none;
+    color: black;
+}
+
+.listeBis{
+    color: rgb(52, 100, 52);
+}
+
+.darkLi{
+    text-decoration: none;
+    background-color: white;
+  
+}
+.ligthLi{
+    text-decoration: none;
+    background-color: white;
+  
+}

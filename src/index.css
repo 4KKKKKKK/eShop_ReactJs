@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Courgette&family=Nunito+Sans:wght@200;800&family=Quintessential&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Courgette&family=Neonderthaw&family=Nunito+Sans:wght@200;800&family=Quintessential&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Comforter&family=Courgette&family=Neonderthaw&family=Nunito+Sans:wght@200;800&family=Quintessential&display=swap'); */
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* font-family: Quintessential, Arial, Helvetica, sans-serif; */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1;
+  transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out;
+
+}
+
+.App{
+  position: relative;
+}
+
+.dark-body{
+  background-color: #222;
+  /* color: #f1f1f1; */
+}
+
+.darkMode{
+  background-color: #222;
+
+}
+

@@ -1,0 +1,149 @@
+@media screen and (min-width: 320px) and (max-width: 700px) {
+    .preNavbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divInput{
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .panier{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .langue span{
+        font-size: 8px;
+    }
+
+}
+
+
+/* .jardin{
+    font-family: Neonderthaw, Arial, Helvetica, sans-serif;
+} */
+
+.langue{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+
+}
+
+.langue span{
+    cursor: pointer;
+}
+
+.cardreNavbar{
+    background-color: rgba(243,241,238,255);
+}
+.cardreNavbarDark{
+
+    background-color: #222;
+}
+
+.loupe{
+    cursor: pointer;
+}
+
+
+.darkPreNavbar{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(243,241,238,255);
+    transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out;
+
+
+}
+
+.preNavbar{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out;
+
+}
+
+
+.divInput input{
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.divInput span{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panier{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monCompte{
+    border: 1px solid rgba(230,224,216,255);
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.monPanier{
+    border: 1px solid rgba(230,224,216,255);
+    padding: 10px;
+    border-radius: 10px; 
+    cursor: pointer;   
+}
+
+.monPanier a{
+    text-decoration: none;
+    color: white;
+}
+
+.monPanier a:hover{
+    color: white;
+}
+
+/* La Navbar  */
+
+.divNavbar nav{
+    background-color: rgba(230,224,216,255);
+}
+
+.nav-item a{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    margin: 20px;
+
+}
+
+/* Pour le NavLink isActive */
+.activeLink{
+    background-color: rgba(25,135,84,255);
+    color: white !important;
+    padding: 5px;
+    border-radius: 10px;
+}
+
